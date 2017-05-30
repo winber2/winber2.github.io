@@ -15,7 +15,7 @@ The minimum viable product will include:
 
 In addition, this project will include:
 
-- [ ] A start screen with instructoins
+- [ ] A start screen with instructions
 - [ ] A production Readme
 
 ### Wireframes

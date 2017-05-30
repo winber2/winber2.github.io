@@ -4,6 +4,77 @@ body {
   justify-content: center;
 }
 
-canvas {
+span, h1, button {
+  font-family: Orbitron;
+}
+
+span {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  position: absolute;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 250px;
+  z-index: 10;
+}
+
+button {
+  background: black;
+  color: white;
   border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 3px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+button:hover {
+  cursor: pointer;
+  text-shadow: 0 0 0 white;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1 {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+canvas {
+  position: absolute;
+  border: 1px solid white;
+}
+
+section.end {
+  display: none;
+  margin-top: 50px;
+}
+
+section.end.active {
+  display: flex;
+}
+
+section.playing {
+  display: none;
 }

@@ -4,12 +4,25 @@
     <meta charset="utf-8">
     <title>Valkyire</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <script type="text/javascript" src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
     <script type="text/javascript" src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
     <script type="text/javascript" src="./jquery-3.2.1.js"></script>
   </head>
   <body onload="">
-    <canvas id="canvas" width="600" height="900"></canvas>
+    <div>
+      <section class='start'>
+        <h1>Valkyrie</h1>
+        <span>Arrow keys to move</span>
+        <span>Hold 'z' to shoot</span>
+        <button type="button" class='start'>Start</button>
+      </section>
+      <section class='end'>
+        <h1>Game Over</h1>
+        <button type="button" class='play'>Play Again</button>
+      </section>
+      <canvas id="canvas" width="600" height="900"></canvas>
+    </div>
   </body>
   <script type="text/javascript" src="lib/bundle.js"></script>
 </html>
