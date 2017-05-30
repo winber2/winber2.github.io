@@ -11,6 +11,7 @@ The minimum viable product will include:
 - [ ] Functioning shooting and destroying of enemies
 - [ ] Many types of enemies for more dynamic gameplay
 - [ ] Fluid movement of player and enemies
+- [ ] Score counter and ranking
 
 In addition, this project will include:
 
@@ -37,7 +38,7 @@ In addition to the webpack entry file, there will be four main scripts involved 
 
 `enemies.js`: this script will house all of the basic enemy attributes, such as their speed, movement type, enemy type, health points, etc. The enemies will be split into other sub-groups that will inherit this parent class. They will differ in more complex attributes such as their attack patterns.
 
-`bullets.js`: this script will the different kinds of bullets that will be shot by either the enemy or the player.
+`bullets.js`: this script will the different kinds of bullets that will be shot by either the enemy or the player. Different bullets will have different attack patterns and enemy bullets will be clearly represented by different hues and more circular shapes, while the player will use more laser-like bullets.
 
 `game.js`: this script will handle the game logic, such as the start screen and when the game is over as well as the scoring.
 
@@ -63,6 +64,5 @@ In addition to the webpack entry file, there will be four main scripts involved 
 
 Some bonus features may be:
 
-- [ ] Score counter and ranking
 - [ ] Boss fight
 - [ ] Different difficulties
