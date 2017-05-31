@@ -4,8 +4,19 @@ body {
   justify-content: center;
 }
 
-span, h1, button, aside {
+span, h1, button, aside, ol, li {
   font-family: Orbitron;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+
+li {
+  color: white;
 }
 
 aside {
@@ -19,16 +30,24 @@ aside {
 }
 
 aside.active {
-  visibility: visible; 
+  visibility: visible;
 }
 
 span {
   font-size: 24px;
 }
 
+span.finalscore {
+  font-size: 30px;
+}
+
 h1 {
   font-size: 50px;
   margin-bottom: 50px;
+}
+
+h1.finalscore {
+  margin-bottom: 0;
 }
 
 div {
@@ -84,7 +103,7 @@ canvas {
 
 section.end {
   display: none;
-  margin-top: 50px;
+  margin-top: -50px;
 }
 
 section.end.active {
