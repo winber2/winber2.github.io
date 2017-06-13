@@ -147,3 +147,33 @@ section.end.active {
 section.playing {
   display: none;
 }
+
+section.pause {
+  display: none;
+}
+
+section.paused {
+  position: static;
+  display: flex;
+  flex-direction: column;
+}
+
+section.paused button {
+  position: relative;
+  z-index: 999;
+}
+
+button.restart {
+  margin-top: 400px;
+}
+
+section.paused div {
+  position: absolute;
+  height: 900px;
+  width: 600px;
+  margin: 0;
+  top: 1px;
+  left: 0px;
+  background: grey;
+  opacity: 0.7;
+}
