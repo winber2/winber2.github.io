@@ -177,3 +177,46 @@ section.paused div {
   background: grey;
   opacity: 0.7;
 }
+
+ul.links {
+  display: flex;
+  flex-direction: column;
+}
+
+figure {
+  margin: 0;
+  margin-top: 10px;
+}
+
+figure.github:hover {
+  background-color: #264161;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+figure.linkedin:hover {
+  background-color: #264161;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+figure.github {
+  background-image: url('./github-icon.png');
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+
+figure.linkedin {
+  background-image: url('./linkedin.png');
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+}
+
+a {
+  display: block;
+  height: 50px;
+  width: 50px;
+}
